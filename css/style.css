@@ -8,13 +8,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    color: #333;
+    color: #90bcee;
     line-height: 1.6;
 }
 
 /* 1. 頁首區塊樣式（上方海浪圖可以改用背景圖替代，這裡先用深色漸層示範） */
 .header {
-    background: linear-gradient(to bottom, #333, #888);
+    background: linear-gradient(to bottom, #5a8fcc, #90bcee);
     color: white;
     padding: 30px 50px;
 }
@@ -35,7 +35,7 @@ body {
 
 /* 2. 導覽列樣式（黑底黑按鈕） */
 .navbar {
-    background: linear-gradient(to bottom, #444, #111);
+    background: linear-gradient(to bottom, #ffffff, #184e8d);
 }
 
 .navbar ul {
@@ -55,7 +55,7 @@ body {
 }
 
 .navbar a:hover, .navbar a.active {
-    background-color: #000;
+    background-color: #184e8d;
 }
 
 /* 3. 主內容包裝盒（限制最大寬度並置中，並用 Flex 讓左右並排） */
